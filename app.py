@@ -12,7 +12,7 @@ import os
 
 app = Flask(__name__)
 count = 0
-max_count = 3
+max_count = 100
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['UPLOAD_FOLDER'] = 'static/files'
 
